@@ -33,11 +33,11 @@ Each write-up generally follows this workflow:
 
 ---
 
-### TryHackMe
+##### TryHackMe
 
-Soon ..
-
-
+| Room | Difficulty | Link |
+|--------|------------|------|
+| BountyHacker | Easy | https://github.com/besafewithsamy/CTFs-WriteUps/tree/main/TryHackMe/BountyHacker |
 
 ## Notes
 
