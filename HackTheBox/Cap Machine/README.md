@@ -2,7 +2,7 @@
 
 ## Overview
 This write-up documents the full compromise of the target machine through:
-
+![Additional Screenshot](/Assests/Pic1.jpeg)
 - Reconnaissance
 - Enumeration
 - PCAP analysis
