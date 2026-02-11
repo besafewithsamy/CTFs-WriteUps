@@ -1,5 +1,6 @@
 # CTFs-WriteUps
 
+![Lain](/Assets/na.jpg)
 My personal collection of Capture The Flag (CTF) write-ups from:
 
 - Hack The Box
