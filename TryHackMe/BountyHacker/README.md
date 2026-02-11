@@ -139,6 +139,29 @@ cat /root/root.txt
 
 ---
 
+## Room Questions & Answers
+
+**Task 1 — Deploy the machine**  
+Answer: (No answer needed — use the room’s Deploy button)
+
+**Task 2 — Find open ports on the machine**  
+Answer: FTP (21), SSH (22), HTTP (80)
+
+**Task 3 — Who wrote the task list?**  
+Answer: lin
+
+**Task 4 — What service can you brute force with the text file found?**  
+Answer: SSH
+
+**Task 5 — What is the user’s password?**  
+Answer: RedDr4gonSynd1cat3
+
+**Task 6 — user.txt**  
+Answer: THM{CR1M3_SyNd1C4T3}
+
+**Task 7 — root.txt**  
+Answer: THM{80UN7Y_h4cK3r}
+
 ## Summary
 
 | Phase | Result |
