@@ -18,6 +18,7 @@ We start with an Nmap scan to discover open ports:
 ```bash
 nmap <ip>
 ```
+![Nmap Scan](images/Nmap.png)
 
 ### Task 1 — How many TCP ports are open?
 **Answer:** `3`
